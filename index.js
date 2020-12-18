@@ -1,7 +1,7 @@
 const app = "I don't do much."
 const dodger = document.getElementById('dodger')
 dodger.style.backgroundColor = '#FF69B4'
-
+dodger.style.bottom = "100px"
 function moveDodgerLeft() {
   var leftNumbers = dodger.style.left.replace('px', '')
   var left = parseInt(leftNumbers, 10)
