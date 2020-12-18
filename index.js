@@ -20,13 +20,15 @@ function moveDodgerRight() {
   }
 }
 
-document.addEventListener('keydown', function(e) {
-  console.log(e.which)
-  if (e.which === 37) {
-    moveDodgerLeft()
-  }
+document.ready(function() {
+  document.addEventListener('keydown', function(e) {
+    console.log(e.which)
+    if (e.which === 37) {
+      moveDodgerLeft()
+    }
 
-  if (e.which === 36) {
-    moveDodgerRight()
-  }
+    if (e.which === 36) {
+      moveDodgerRight()
+    }
+  })
 })
