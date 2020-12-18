@@ -15,7 +15,7 @@ function moveDodgerRight() {
   var left = parseInt(leftNumbers, 10)
 
   if (left < 360) {
-    dodger.style.right = `${left - 1}px`
+    dodger.style.left = `${left + 1}px`
   }
 }
 
@@ -24,11 +24,11 @@ $(document).ready(function() {
   dodger.style.bottom = "100px"
   $(document).on('keydown', function(e) {
     console.log(e.which)
-    if (e.which === 39) {
-      moveDodgerRight()
-    }
     if (e.which === 37) {
       moveDodgerLeft()
+    }
+    if (e.which === 39) {
+      moveDodgerRight()
     }
   })
 })
