@@ -23,7 +23,6 @@ $(document).ready(function() {
   dodger.style.backgroundColor = '#FF69B4'
   dodger.style.bottom = "100px"
   $(document).on('keydown', function(e) {
-    console.log(e.which)
     if (e.which === 36) {
       moveDodgerRight()
     }
