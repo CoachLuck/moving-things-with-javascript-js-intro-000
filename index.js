@@ -20,8 +20,8 @@ function moveDodgerRight() {
 }
 
 document.ready(function() {
-  dodger = document.getElementById('dodger');
   alert('began')
+  dodger = document.getElementById('dodger');
   dodger.style.backgroundColor = '#FF69B4'
   dodger.style.bottom = "100px"
   $(document).on('keydown', function(e) {
