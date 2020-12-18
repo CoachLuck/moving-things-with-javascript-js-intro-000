@@ -24,7 +24,7 @@ $(document).ready(function() {
   dodger.style.bottom = "100px"
   $(document).on('keydown', function(e) {
     console.log(e.which)
-    if (e.which === 36) {
+    if (e.which === 39) {
       moveDodgerRight()
     }
     if (e.which === 37) {
