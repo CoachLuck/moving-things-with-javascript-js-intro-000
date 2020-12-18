@@ -25,8 +25,7 @@ $(document).ready(function() {
     if (e.which === 37) {
       moveDodgerLeft()
     }
-
-    if (e.which === 36) {
+    else if (e.which === 36) {
       moveDodgerRight()
     }
   })
