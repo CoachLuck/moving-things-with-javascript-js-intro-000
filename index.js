@@ -19,7 +19,7 @@ function moveDodgerRight() {
   }
 }
 
-document.ready(function() {
+$(document).ready(function() {
   alert('began')
   dodger = document.getElementById('dodger');
   dodger.style.backgroundColor = '#FF69B4'
